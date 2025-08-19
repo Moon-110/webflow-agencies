@@ -161,6 +161,8 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 20px;
+
 
 }
 .form h1{
@@ -188,4 +190,37 @@
     width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+/* footer section */
+.footer{
+    max-width: 1640px;
+    height: 430px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.footer h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.footer p{
+    font-size: 16px;
+    padding-top: 20px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 625px;
+    padding-top: 40px;
+    
+    
+}
+
+.footer ul li{
+    list-style: none;
+    
 }
