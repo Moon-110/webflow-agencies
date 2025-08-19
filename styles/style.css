@@ -153,3 +153,39 @@
 }
 
 /* form section */
+.form{
+    max-width: 1140px;
+    height: 632px;
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.form h1{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    width: 50%;
+}
+
+#email{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#name{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#message{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
