@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+
+}
 
 .raleway-regular {
   font-family: "Raleway", sans-serif;
@@ -22,6 +26,7 @@
     /* border: 2px solid tomato; */
     background-image: url('../Assets/Hero-bg.png');
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .hero-nav{
@@ -48,3 +53,54 @@
     color: #252432;
     text-align: center;
 }
+
+
+/* banner section */
+.banner-container{
+    max-width: 1150px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* border: 2px solid tomato; */
+}
+.banner-description h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252432;
+}
+.banner-img{
+    border-radius: 30px;
+}
+
+/* joined users section */
+.joined-section{
+    max-width: 1140px;
+    height: 280px;
+    background-color: #c0bffd;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+.joined-section h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.joined-section-description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.joined-section-description h1{
+    font-size: 60px;
+    color: #4E47FF;
+    margin-top: 60px;
+}
+
+/* users say */
