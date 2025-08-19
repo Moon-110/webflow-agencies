@@ -104,3 +104,28 @@
 }
 
 /* users say */
+.users-say{
+    max-width: 1140px;
+    height: 335px;
+    border: 2px solid tomato;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.users-say h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.users-say-rating{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.avatar{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+}
