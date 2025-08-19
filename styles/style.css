@@ -107,7 +107,7 @@
 .users-say{
     max-width: 1140px;
     height: 335px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -129,3 +129,27 @@
     display: flex;
     gap: 20px;
 }
+
+/* banner2 container */
+.banner2-container{
+    max-width: 1140px;
+    height: 695px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner2-description h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.banner2-description button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner2-img{
+    border-radius: 40px;
+}
+
+/* form section */
